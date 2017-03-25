@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #474b51;
+  width: 100%;
+  top:0;
+  position:fixed;
+  border-style: solid;
+  border-width: thin;
+  }
+
+.logo {
+  float:left;
+  font-family: "helvetica";
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  font-family: "helvetica";
+  float: left;
+  margin-left: 15px;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.nav {
+  float: right;
+}
+
+a:hover {
+  background-color:#303133;
+}
+
+.heading {
+  font-family: "helvetica";
+  text-align: center;
+  }
+
+.picon {
+  display: block;
+  max-height: 241px;
+  max-width: 320 px;
+}
+
+img {
+  display: block;
+  max-width: 320px;
+  max-height: 241px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.bannerimage {
+  width: 100%;
+  background-image: url(https://www.planwallpaper.com/static/images/3D-Beach-Wallpaper-HD-Download.jpg);
+  height: 450px;
+  background-position: center;
+  }
