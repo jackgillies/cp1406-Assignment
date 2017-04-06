@@ -19,7 +19,7 @@ body {
   background: #474b51;
   width: 100%;
   top:0;
-  position:fixed;
+  position:absolute;
   border-style: solid;
   border-width: thin;
   }
@@ -69,7 +69,7 @@ a:hover {
   padding-top: 80px;
 }
 
-img {
+.ballpic {
   display: block;
   max-width: 320px;
   max-height: 241px;
@@ -90,7 +90,8 @@ img {
 }
 
 #laddersection {
-
+  margin-bottom: 20px;
+  max-height: 250px;
 }
 
 th {
@@ -108,4 +109,15 @@ td, th {
 #ladder {
 	display: inline-block;
   margin-left: 110px;
+}
+
+.joinnow {
+  position: absolute;
+  border: thick;
+  border-style: solid;
+  font-size: 100px;
+  font-family: "helvetica";
+  margin-top: 200px;
+  margin-left: 200px;
+  background-color: #6E6E6E
 }
