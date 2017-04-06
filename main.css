@@ -6,6 +6,13 @@ body {
 .container {
   width: 960px;
   margin: 0 auto;
+	}
+.container p {
+  font-size: 20px;
+}
+
+.container h1 {
+	text-transform: uppercase;
 }
 
 .header {
@@ -15,6 +22,14 @@ body {
   position:fixed;
   border-style: solid;
   border-width: thin;
+  }
+
+  .header img {
+    position: absolute;
+  }
+
+  .header h1 {
+    margin-left: 75px;
   }
 
 .logo {
@@ -50,10 +65,8 @@ a:hover {
   text-align: center;
   }
 
-.picon {
-  display: block;
-  max-height: 241px;
-  max-width: 320 px;
+.tophr {
+  padding-top: 80px;
 }
 
 img {
@@ -64,9 +77,35 @@ img {
   margin-top: 10px;
 }
 
-.bannerimage {
-  width: 100%;
-  background-image: url(https://www.planwallpaper.com/static/images/3D-Beach-Wallpaper-HD-Download.jpg);
-  height: 450px;
-  background-position: center;
+.ladderheading {
+  padding-top: 10px;
+  margin: auto 0;
+  font-family: "helvetica";
+  text-align: center;
   }
+
+#announcementsection {
+  max-height: 215px;
+  padding-bottom: 150px;
+}
+
+#laddersection {
+
+}
+
+th {
+  background-color:#808080
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 10px;
+}
+
+#ladder {
+	display: inline-block;
+  margin-left: 110px;
+}
