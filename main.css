@@ -38,7 +38,11 @@ body {
   font-size: 15px;
 }
 
-a {
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav a {
   text-decoration: none;
   color: #fff;
 }
@@ -56,7 +60,7 @@ li {
   float: right;
 }
 
-a:hover {
+.nav a:hover {
   background-color:#303133;
 }
 
@@ -120,4 +124,40 @@ td, th {
   margin-top: 200px;
   margin-left: 200px;
   background-color: #6E6E6E
+}
+
+Label {
+  font-family: "helvetica";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.signupform {
+  padding: 16px;
+}
+
+button {
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancel ,.submit {
+  float: left;
+  width: 50%;
+}
+
+input[type=text] {
+  width: 100%;
+  display: inline-block;
+  padding: 12px;
+}
+
+.contacts {
+  text-align: center;
+  font-size: 10px;
+}
+
+.links {
+  text-align: center;
+  font-family: "helvetica";
 }
